@@ -1,0 +1,91 @@
+/* !Imports */
+@import '../css/fonts.css';
+
+/* !Variables */
+
+:root{
+    /*? Colors */
+    --Iridium: #3D3D3F;
+    --Bittersweet:#FE6F5E;
+    --white:#fff;
+
+}
+
+/** ///////////////////////////// */
+    /** Default  Styles */
+/** //////////////////////////// */
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/** ///////////////////////////// */
+    /** Header Section Styles */
+/** //////////////////////////// */
+
+/*^ nvabr Styles */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.navbar__logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_logo-svg{
+    font-size: 1rem;
+}
+
+.navbar__logo-text{
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    font-family: 'rubik', Courier, monospace;
+    color: var(--Iridium);
+}
+
+.navbar__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__list-item{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.navbar__list-link{
+    color: var(--Iridium);
+    font-size: 1.2rem;
+    font-family: 'rubik-regular', Courier, monospace;
+}
+
+.navbar__contact{
+    background-color: var(--Bittersweet);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.navbar__content-link{
+    color: var(--white);
+    font-family: 'rubik-regular', Courier, monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
