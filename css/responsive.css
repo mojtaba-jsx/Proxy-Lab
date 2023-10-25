@@ -11,10 +11,14 @@
         position: fixed;
         top: 0rem;
         padding-top: 2rem;
-        left: 0;
-        background-color: red;
+        left: -200px;
+        background-color: #FE6F5E;
+        color: #fff;
         height: 100vh;
         flex-direction: column;
+    }
+    .navbar__list-link{
+        color: #fff;
     }
     .navbar__list{
         flex-direction: column;
@@ -25,7 +29,7 @@
     .navbar__contact{
         display: none;
     }
-    .menu-btn{
+    #menu-btn{
         display: block;
         right: 1rem;
     }
