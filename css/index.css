@@ -79,8 +79,24 @@
     font-family: 'rubik-regular', Courier, monospace;
 }
 
+/*^ Navbar Menu Res */
+
+.navbar{
+    position: relative;
+}
+.navbar__menu-res{
+    position: absolute;
+    width: 10rem;
+    height: 100%;
+    border: 1px solid red;
+}
 
 
+.menu-btn{
+    font-size: 2.4rem;
+    color: var(--Bittersweet);
+    display: none;
+}
 
 
 
