@@ -91,8 +91,6 @@
     border: 1px solid red;
 }
 
-
-
 #menu-btn{
     font-size: 2.4rem;
     color: var(--Bittersweet);
@@ -104,7 +102,7 @@
 .landing__wrapper{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .landing__wrapper-left{
@@ -135,7 +133,6 @@
     margin-top: 4rem;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
 }
 
 .landing__btn{
@@ -168,4 +165,54 @@
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
+}
+
+/* ^Right section */
+
+.landing-right{
+    width: 50%;
+    position: relative;
+
+}
+
+.landing-image{
+    margin: 0 auto;
+    display: block;
+}
+
+.landing-bing{
+    position: absolute;
+    top: 12rem;
+    right: -15rem;
+}
+
+.landing-google{
+    position: absolute;
+    top: 10rem;
+    left: 8rem;
+}
+
+.landing-linkedin{
+    position: absolute;
+    top: 2rem;
+    left: 14rem;
+}
+
+.landing-client{
+    position: absolute;
+    bottom: 8rem;
+    right: -19rem;
+    width: 10rem;
+}
+
+.landing-star{
+    position: absolute;
+    top: 2rem;
+    right: -18rem;
+}
+
+.landing-team{
+    position: absolute;
+    bottom: 1rem;
+    left: -10rem;
 }
