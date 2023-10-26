@@ -12,3 +12,7 @@
     font-family: 'rubik-regular';
     src: url('../font/Rubik-Regular.ttf');
 }
+@font-face {
+    font-family: 'rubik-bold';
+    src: url('../font/Rubik-Bold.ttf');
+}
