@@ -3,7 +3,12 @@
 }
 
 @media screen and (max-width: 1200px) {
-
+    .landing__wrapper-left{
+        margin-left: 4rem;
+    }
+    .landing__title{
+        line-height: 4.4rem;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -14,8 +19,9 @@
         left: -200px;
         background-color: #FE6F5E;
         color: #fff;
-        height: 100vh;
+        height: 100%;
         flex-direction: column;
+        z-index: 100;
     }
     .navbar__list-link{
         color: #fff;
@@ -33,13 +39,111 @@
         display: block;
         right: 1rem;
     }
+    /*! ///////// */
+    .landing__wrapper{
+        flex-direction: column;
+    }
+    .landing-right{
+        width: 100%;
+    }
+    .landing__wrapper-left{
+        width: 100%;
+    }
+    .landing-image{
+        width: 100%;
+    }
+    .landing__btn{
+        margin-left: 2rem;
+        font-size: 0.8rem;
+    }
+    .landing__btns{
+        flex-direction: column;
+    }
+    .landing__btn{
+        padding: 1rem 8rem;
+    }
+    .landing-bing ,.landing-google,.landing-linkedin,.landing-client,.landing-star,.landing-team
+    .landing-image,.landing-team{
+        display: none;
+    }
+    .landing__title{
+        text-align: center;
+    }
+    .landing__text{
+        text-align: center;
+    }
+    .laning__btn-play{
+        font-size: 2rem;
+    }
+    .navbar__logo{
+        margin-left: 1rem;
+    }
+    .menu-btn{
+        margin-right: 1rem;
+    }
+    .landing__wrapper-left{
+        margin-right:auto ;
+        margin-left:auto ;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
+    .landing__wrapper-left{
+        width: 100%;
+    }
 
 
 }
 
 @media screen and (max-width: 576px) {
+    .landing__wrapper-left{
+        width: 100%;
+    }
+    .landing-right{
+        width: 100%;
+    }
+    .landing__wrapper-left{
+        margin: 0 auto;
+    }
+    .landing__btn{
+        text-wrap: nowrap;
+    }
+    .navbar__logo{
+        margin-left: 1rem;
+    }
+    .menu-btn{
+        margin-right: 1rem;
+    }
+}
 
+@media screen and (max-width: 350px) {
+    .landing__btn{
+        padding: 1rem 4rem;
+    }
+    .landing__btn-play-link{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .landing__title{
+        font-size: 3.4rem;
+    }
+}
+@media screen and (max-width: 280px) {
+    .landing__btn{
+        padding: 1rem 4rem;
+    }
+    .landing__btn-play-link{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .landing__title{
+        font-size: 2.8rem;
+    }
+    .landing__text{
+        
+        text-align: center;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
 }
