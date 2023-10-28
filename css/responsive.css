@@ -85,6 +85,11 @@
         margin-right:auto ;
         margin-left:auto ;
     }
+    .trust-clients-logos{
+        flex-wrap: wrap;
+    }
+    .trust-clients-logo{
+    }
     
 }
 
@@ -115,6 +120,9 @@
     .menu-btn{
         margin-right: 1rem;
     }
+    .trust-clients-logo{
+        margin-top: 1rem;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -128,6 +136,7 @@
     .landing__title{
         font-size: 3.4rem;
     }
+
 }
 @media screen and (max-width: 280px) {
     .landing__btn{
@@ -145,5 +154,8 @@
         text-align: center;
         margin-right: 1rem;
         margin-left: 1rem;
+    }
+    .trust-clients-logo{
+        margin-top: 1rem;
     }
 }
