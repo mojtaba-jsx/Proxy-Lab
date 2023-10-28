@@ -216,3 +216,24 @@
     bottom: 1rem;
     left: -10rem;
 }
+
+/*^ Trusted Clients Section */
+.trust-clients{
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trust-client-title{
+    text-align: center;
+    font-family: 'rubik-bold', Courier, monospace;
+
+}
+
+.trust-clients-logos{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
