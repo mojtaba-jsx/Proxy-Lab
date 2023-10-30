@@ -26,3 +26,7 @@
     font-family: 'muslish-regular';
     src: url('../font/Mulish-Regular.ttf');
 }
+@font-face {
+    font-family: 'dm-sans';
+    src: url('../font/DMSans_18pt-Medium.ttf');
+}
