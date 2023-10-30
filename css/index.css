@@ -278,19 +278,21 @@ body{
 
 .what-we-do__wrapper-left-btn{
     margin-top: 2rem;
-    display: inline-block;
+    width: 9rem;
     background-color: var(--Bittersweet);
     padding: 1rem 2rem;
     border-radius: 10rem;
-    color: var(--white);
     font-family: 'rubik-regular', Courier, monospace;
+}
+.what-we-do__wrapper-left-btn-link{
+    color: var(--white);
 }
 
 /* !right */
 .what-we-do__wrapper-right{
     width: 50%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 .what-we-do__wrapper-right-box{
     display: flex;
