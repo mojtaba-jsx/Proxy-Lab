@@ -237,3 +237,47 @@
     display: flex;
     justify-content: space-around;
 }
+
+/*^ What We Do Section */
+.what-we-do{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.what-we-do__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-we-do__wrapper-left{
+    width: 50%;
+}
+
+.what-we-do__wrapper-left-title{
+    font-size: 1.4rem;
+    font-family: 'muslish-bold', Courier, monospace;
+    text-transform: uppercase;
+    color: var(--Bittersweet);
+}
+
+.what-we-do__wrapper-left-subtitle{
+    font-size: 2.2rem;
+    font-family: 'rubik-regular', Courier, monospace;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+.what-we-do__wrapper-left-text{
+    margin-top: 2rem;
+    font-family: 'rubik-regular', Courier, monospace;
+    line-height: 1.4rem;
+}
+
+.what-we-do__wrapper-left-btn{
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: var(--Bittersweet);
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+    color: var(--white);
+    font-family: 'rubik-regular', Courier, monospace;
+}

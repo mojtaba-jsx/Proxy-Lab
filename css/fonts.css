@@ -16,3 +16,13 @@
     font-family: 'rubik-bold';
     src: url('../font/Rubik-Bold.ttf');
 }
+
+@font-face {
+    font-family: 'muslish-bold';
+    src: url('../font/Mulish-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'muslish-regular';
+    src: url('../font/Mulish-Regular.ttf');
+}
