@@ -345,3 +345,54 @@ body{
 .link-active{
     color: var(--Bittersweet);
 }
+
+/*^ About Us Section */
+.about-us{
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+.about-us__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-us__left{
+    width: 50%;
+}
+
+.about-us__left-title{
+    font-size: 1.4rem;
+    font-family: 'muslish-bold', Courier, monospace;
+    text-transform: uppercase;
+    color: var(--Bittersweet);
+
+}
+
+.about-us__left-subtitle{
+    font-size: 2.2rem;
+    font-family: 'rubik-regular', Courier, monospace;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+.about-us__left-text{
+    margin-top: 2rem;
+    font-family: 'rubik-regular', Courier, monospace;
+    line-height: 1.4rem;
+}
+
+.about-us__left-btn{
+    margin-top: 2rem;
+    width: 9rem;
+    background-color: var(--Bittersweet);
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+    font-family: 'rubik-regular', Courier, monospace;
+    text-align: center;
+}
+
+.about-us__left-link{
+    color: var(--white);
+
+}
