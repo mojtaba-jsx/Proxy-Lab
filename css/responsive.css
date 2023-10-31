@@ -32,6 +32,11 @@
         width: 26rem;
 
     }
+
+    /*! ///////// */
+    .about-us__left{
+        margin-left: 2rem;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -112,12 +117,6 @@
         flex-wrap: wrap;
     }
     /*! ///////// */
-    .what-we-do__wrapper{
-        /* flex-direction: column; */
-    }
-    .what-we-do__wrapper-left,.what-we-do__wrapper-right{
-        /* width: 100%; */
-    }
     .what-we-do__wrapper-right{
         flex-wrap: nowrap;
         margin-top: 1rem;
@@ -136,6 +135,32 @@
     .what-we-do__wrapper-right-box{
         width:20rem ;
     }
+    /*! ///////// */
+    .about-us__wrapper{
+        flex-direction: column-reverse;
+    }
+    .about-us__left{
+        max-width: 100%;
+    }
+    .about-us__left-btn{
+        margin: 2rem auto;
+    }
+    .about-us__left-title{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .about-us__left-text{
+        text-align: center;
+    }
+    .about-us__left-subtitle{
+        text-align: center;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    .about-us__right{
+        /* width: 100%; */
+    }
+    
 
 }
 
@@ -194,6 +219,14 @@
     }
     .what-we-do__wrapper-left-title{
         margin-top: 1rem;
+    }
+
+    .laning__btn-play{
+        margin-top: 2rem;
+    }
+
+    .about-us__left-btn{
+        width: 6rem;
     }
 }
 
