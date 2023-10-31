@@ -402,3 +402,73 @@ body{
     color: var(--white);
 
 }
+
+/*^ Our Work Section */
+.our-work{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.our-work__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.our-work__title{
+    font-size: 1.4rem;
+    font-family: 'muslish-bold', Courier, monospace;
+    text-transform: uppercase;
+    color: var(--Bittersweet);
+}
+
+.our-work__subtitle{
+    font-size: 2.2rem;
+    font-family: 'rubik-regular', Courier, monospace;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+.our-work__category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.our-work__category-box{
+    display: flex;
+    align-items: center;
+}
+
+.our-work__category-item-link{
+    margin-right: 2rem;
+    font-family: 'muslish-regular', Courier, monospace;
+    color: #CCCCCC;
+    font-weight: 700;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.our-work__category-active{
+    color: var(--Bittersweet);
+    border-bottom: 4px solid var(--Bittersweet);
+}
+
+.our-work__explor-btn{
+    display: flex;
+    align-items: center;    
+}
+
+.our-work__explor-btn-link{
+    font-family: 'muslish-regular', Courier, monospace;
+    font-weight: 600;
+}
+
+.our-work__projects{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
