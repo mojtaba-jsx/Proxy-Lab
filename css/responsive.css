@@ -37,6 +37,16 @@
     .about-us__left{
         margin-left: 2rem;
     }
+    /*! ///////// */
+    .our-work__category-box{
+        flex-wrap: wrap;
+    }
+    .our-work__title,.our-work__subtitle,.our-work__category-box{
+        margin-left: 2rem;
+    }
+    .our-work__explor-btn{
+        margin-right: 2rem;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -160,8 +170,24 @@
     .about-us__right{
         /* width: 100%; */
     }
-    
+    /*! ///////// */
+    .our-work__title,.our-work__subtitle{
+        text-align: center;
+    }
+    .our-work__category-item-link{
 
+    }
+    .our-work__category-item{
+        margin-bottom: 2.4rem;
+    }
+    .our-work__explor-btn{
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .our-work__explor-icon{
+        text-align: center;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
