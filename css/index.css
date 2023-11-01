@@ -472,3 +472,94 @@ body{
 }
 
 
+/*^  Testimonial Section */
+
+.testi__title{
+    font-size: 1.4rem;
+    font-family: 'muslish-bold', Courier, monospace;
+    text-transform: uppercase;
+    color: var(--Bittersweet);
+}
+
+.testi__subtitle{
+    font-size: 2.2rem;
+    font-family: 'rubik-regular', Courier, monospace;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+.testi__box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testi__about{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    width: 28rem;
+    height: 14rem;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.testi__about-header{
+    display: flex;
+    align-items: center;
+}
+
+.testi__about-header-img{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.testi__about-header-title{
+    margin-left: 1rem;
+    font-family: 'muslish-bold', Courier, monospace;
+}
+
+.testi__about-header-text{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-family: 'muslish-regular', Courier, monospace;
+    color:#757575;
+}
+
+.testi__about-text{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: justify;
+    color:  #757575;
+    font-family: 'muslish-regular', Courier, monospace;
+    line-height: 1.2rem;
+}
+
+.testi__arrow{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.testi__arrow-black,.testi__arrow-white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    background-color: red;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.testi__arrow-black{
+    background-color: var(--white);
+
+}
+
+.testi__arrow-white{
+    background-color: var(--Bittersweet);
+    margin-top: 1rem;
+    
+}
