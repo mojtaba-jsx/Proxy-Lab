@@ -473,7 +473,9 @@ body{
 
 
 /*^  Testimonial Section */
-
+.testi{
+    margin-bottom: 4rem;
+}
 .testi__title{
     font-size: 1.4rem;
     font-family: 'muslish-bold', Courier, monospace;
@@ -534,6 +536,11 @@ body{
     color:  #757575;
     font-family: 'muslish-regular', Courier, monospace;
     line-height: 1.2rem;
+}
+
+.testi__team-img{
+    width: 100%;
+    height: auto;
 }
 
 .testi__arrow{

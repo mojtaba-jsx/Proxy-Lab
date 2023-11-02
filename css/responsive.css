@@ -47,6 +47,11 @@
     .our-work__explor-btn{
         margin-right: 2rem;
     }
+        /*! ///////// */
+    .testi__title, .testi__subtitle{
+        margin-left: 2rem;
+
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -214,7 +219,17 @@
     .what-we-do__wrapper-left-title{
         margin-top: 1rem;
     }
-
+    /*! ///////// */
+    .testi__box{
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+    }
+    .testi__title,.testi__subtitle{
+        text-align: center;
+    }
+    .testi__arrow-black,.testi__arrow-white{
+        transform: rotate(90deg);
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -254,6 +269,12 @@
     .about-us__left-btn{
         width: 6rem;
     }
+    /*! ///////// */
+    .testi__about{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 21rem;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -267,7 +288,7 @@
     .landing__title{
         font-size: 3.4rem;
     }
-
+    
 }
 @media screen and (max-width: 280px) {
     .landing__btn{
