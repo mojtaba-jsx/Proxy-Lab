@@ -742,6 +742,7 @@ body{
     justify-content: space-between;
     margin-top: 2rem;
     font-family: 'rubik-light', Courier, monospace;
+    flex-wrap: wrap;
 }
 
 .sub-footer__items{
