@@ -731,3 +731,30 @@ body{
     border-radius: 0.4rem;
 
 }
+
+/*^  Sub Footer  Section */
+.sub-footer{
+    margin-bottom: 4rem;
+    border-top: 2px solid #757575;
+}
+.sub-footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    font-family: 'rubik-light', Courier, monospace;
+}
+
+.sub-footer__items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-footer__item{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.sub-footer__link{
+    font-family: 'rubik-light', Courier, monospace;
+
+}
