@@ -322,8 +322,30 @@
         flex-basis: 100%;
     }
 
+    .main-footer__col2,.main-footer__col3,.main-footer__col4,.main-footer__col5{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
 }
 
+@media screen and (max-width: 420px) {
+    .our-work__projects img {
+       width: 20rem; 
+    }
+    
+}
+@media screen and (max-width: 360px) {
+    .project-mind__wrapper-left-img{
+        display: block;
+        margin: 0 auto;
+        width: 18rem;
+        position:static;
+    }
+}
+    
 @media screen and (max-width: 350px) {
     .landing__btn{
         padding: 1rem 4rem;
@@ -335,8 +357,18 @@
     .landing__title{
         font-size: 3.4rem;
     }
+    .testi__about{
+        width: 14rem;
+        height: 20rem;
+    }
+
+    .our-work__projects img {
+        width: 14rem; 
+     }
+
     
 }
+
 @media screen and (max-width: 280px) {
     .landing__btn{
         padding: 1rem 4rem;
