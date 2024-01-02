@@ -4,6 +4,7 @@
 Hi Guys
 I hope you have a good day This Template Developed By This Techs In Responsive:
 
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://github.com/mojtaba-jsx/Proxy-Lab/blob/main/proxy-lab1.mp4)
 
 
 
