@@ -1,0 +1,392 @@
+@media screen and (max-width: 1400px) {
+    .what-we-do__wrapper-left{
+        margin-left: 1rem;
+    }
+
+    .what-we-do__wrapper-right-box{
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .landing__wrapper-left{
+        margin-left: 4rem;
+    }
+    .landing__title{
+        line-height: 4.4rem;
+    }
+    .landing-client{
+        right: -17rem;
+    }
+    
+    .what-we-do__wrapper-left-title,
+    .what-we-do__wrapper-left-subtitle,
+    .what-we-do__wrapper-left-text{
+        text-align: center;
+    }
+    .what-we-do__wrapper-left-btn{
+        text-align: center;
+        margin: 2rem auto;
+    }
+    .what-we-do__wrapper-right-box{
+        width: 26rem;
+
+    }
+
+    /*! ///////// */
+    .about-us__left{
+        margin-left: 2rem;
+    }
+    /*! ///////// */
+    .our-work__category-box{
+        flex-wrap: wrap;
+    }
+    .our-work__title,.our-work__subtitle,.our-work__category-box{
+        margin-left: 2rem;
+    }
+    .our-work__explor-btn{
+        margin-right: 2rem;
+    }
+        /*! ///////// */
+    .testi__title, .testi__subtitle{
+        margin-left: 2rem;
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar__menu{
+        position: fixed;
+        top: 0rem;
+        padding-top: 2rem;
+        left: -200px;
+        background-color: #FE6F5E;
+        color: #fff;
+        height: 100%;
+        flex-direction: column;
+        z-index: 100;
+    }
+    .navbar__list-link{
+        color: #fff;
+    }
+    .navbar__list{
+        flex-direction: column;
+    }
+    .navbar__list-item{
+        margin-top: 2rem;
+    }
+    .navbar__contact{
+        display: none;
+    }
+    #menu-btn{
+        display: block;
+        right: 1rem;
+    }
+    /*! ///////// */
+    .landing__wrapper{
+        flex-direction: column;
+    }
+    .landing-right{
+        width: 100%;
+    }
+    .landing__wrapper-left{
+        width: 100%;
+    }
+    .landing-image{
+        width: 100%;
+    }
+    .landing__btn{
+        margin-left: 2rem;
+        font-size: 0.8rem;
+    }
+    .landing__btns{
+        flex-direction: column;
+    }
+    .landing__btn{
+        padding: 1rem 8rem;
+    }
+    .landing-bing ,.landing-google,.landing-linkedin,.landing-client,.landing-star,.landing-team
+    .landing-image,.landing-team{
+        display: none;
+    }
+    .landing__title{
+        text-align: center;
+    }
+    .landing__text{
+        text-align: center;
+    }
+    .laning__btn-play{
+        font-size: 2rem;
+    }
+    .navbar__logo{
+        margin-left: 1rem;
+    }
+    .menu-btn{
+        margin-right: 1rem;
+    }
+    .landing__wrapper-left{
+        margin-right:auto ;
+        margin-left:auto ;
+    }
+    .trust-clients-logos{
+        flex-wrap: wrap;
+    }
+    /*! ///////// */
+    .what-we-do__wrapper-right{
+        flex-wrap: nowrap;
+        margin-top: 1rem;
+    }
+
+    .what-we-do__wrapper-right{
+        flex-direction: column;
+
+    }
+    .what-we-do__wrapper-left{
+
+    }
+    .what-we-do__wrapper{
+        /* flex-direction: column; */
+    }
+    .what-we-do__wrapper-right-box{
+        width:20rem ;
+    }
+    /*! ///////// */
+    .about-us__wrapper{
+        flex-direction: column-reverse;
+    }
+    .about-us__left{
+        max-width: 100%;
+    }
+    .about-us__left-btn{
+        margin: 2rem auto;
+    }
+    .about-us__left-title{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .about-us__left-text{
+        text-align: center;
+    }
+    .about-us__left-subtitle{
+        text-align: center;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    /*! ///////// */
+    .our-work__title,.our-work__subtitle{
+        text-align: center;
+    }
+    .our-work__category-item{
+        margin-bottom: 2.4rem;
+    }
+    .our-work__explor-btn{
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .our-work__explor-icon{
+        text-align: center;
+        margin: 0 auto;
+    }
+    /*! ///////// */
+    .project-mind__wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-mind__wrapper-left-img{
+        bottom: -1rem;
+        left: -15rem;
+    }
+    .project-mind__wrapper-left{
+        margin-bottom: 4rem;
+    }
+    .project-mind{
+        margin-top: 38rem;
+    }
+    .project-mind__wrapper-right-title{
+        text-align: center;
+    }
+    .project-mind__wrapper-right-btn{
+        margin: 2rem auto;
+
+    }
+    /*! ///////// */
+    .main-footer__wrapper{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .landing__wrapper-left{
+        width: 100%;
+    }
+    .what-we-do__wrapper-right{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .what-we-do__wrapper-right-box{
+        
+    }
+    .what-we-do__wrapper{
+        flex-direction: column;
+    }
+    .what-we-do__wrapper-left{
+        width: inherit;
+    }
+    .what-we-do__wrapper-right{
+        flex-direction: row;
+    }
+    .what-we-do__wrapper-left-title{
+        margin-top: 1rem;
+    }
+    /*! ///////// */
+    .testi__box{
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+    }
+    .testi__title,.testi__subtitle{
+        text-align: center;
+    }
+    .testi__arrow-black,.testi__arrow-white{
+        transform: rotate(90deg);
+    }
+    /*! ///////// */
+
+}
+
+@media screen and (max-width: 576px) {
+    .landing__wrapper-left{
+        width: 100%;
+    }
+    .landing-right{
+        width: 100%;
+    }
+    .landing__wrapper-left{
+        margin: 0 auto;
+    }
+    .landing__btn{
+        text-wrap: nowrap;
+    }
+    .navbar__logo{
+        margin-left: 1rem;
+    }
+    .menu-btn{
+        margin-right: 1rem;
+    }
+    .trust-clients-logo{
+        margin-top: 1rem;
+    }
+    .what-we-do__wrapper-left-text{
+        text-align: center;
+        padding-right: 1rem;
+    }
+    .what-we-do__wrapper-left-title{
+        margin-top: 1rem;
+    }
+
+    .laning__btn-play{
+        margin-top: 2rem;
+    }
+
+    .about-us__left-btn{
+        width: 6rem;
+    }
+    /*! ///////// */
+    .testi__about{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 21rem;
+    }
+    /*! ///////// */
+    .sub-footer__wrapper{
+        display: block;
+        
+    }
+    .sub-footer__copyright{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .sub-footer__items{
+        width: 100%;
+    }
+    /*! ///////// */
+    .main-footer__col5-btn{
+        margin: 0 auto;
+    }
+    .main-footer__col5-title,.main-footer__col5-subtitle{
+        text-align: center;
+    }
+    .main-footer__col2,.main-footer__col3,.main-footer__col4{
+        flex-basis: 100%;
+    }
+
+    .main-footer__col2,.main-footer__col3,.main-footer__col4,.main-footer__col5{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .our-work__projects img {
+       width: 20rem; 
+    }
+    
+}
+@media screen and (max-width: 360px) {
+    .project-mind__wrapper-left-img{
+        display: block;
+        margin: 0 auto;
+        width: 18rem;
+        position:static;
+    }
+}
+    
+@media screen and (max-width: 350px) {
+    .landing__btn{
+        padding: 1rem 4rem;
+    }
+    .landing__btn-play-link{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .landing__title{
+        font-size: 3.4rem;
+    }
+    .testi__about{
+        width: 14rem;
+        height: 20rem;
+    }
+
+    .our-work__projects img {
+        width: 14rem; 
+     }
+
+    
+}
+
+@media screen and (max-width: 280px) {
+    .landing__btn{
+        padding: 1rem 4rem;
+    }
+    .landing__btn-play-link{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .landing__title{
+        font-size: 2.8rem;
+    }
+    .landing__text{
+        
+        text-align: center;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .trust-clients-logo{
+        margin-top: 1rem;
+    }
+}

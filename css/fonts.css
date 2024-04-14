@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'rubik';
+    src: url('../font/Rubik-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'rubik-light';
+    src: url('../font/Rubik-Light.ttf');
+}
+
+@font-face {
+    font-family: 'rubik-regular';
+    src: url('../font/Rubik-Regular.ttf');
+}
+@font-face {
+    font-family: 'rubik-bold';
+    src: url('../font/Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'muslish-bold';
+    src: url('../font/Mulish-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'muslish-regular';
+    src: url('../font/Mulish-Regular.ttf');
+}
+@font-face {
+    font-family: 'dm-sans';
+    src: url('../font/DMSans_18pt-Medium.ttf');
+}
